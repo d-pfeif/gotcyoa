@@ -1,0 +1,373 @@
+@media only screen and (max-width: 359px) {
+
+/*html {
+  background-image: url('');
+  background-position: center;
+  background-size: cover;
+}*/
+body {
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/000/147/129/small/rob-smyth-the-red-keep-web.jpg?1406534337');
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: darkred;
+  color: rgb(200, 175, 130);
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+header h1 {
+  font-size: 2em;
+}
+header p {
+  font-size: 12px;
+}
+
+
+#filler {
+  width: 50%;
+  height: 275px;
+  border-radius: 10px;
+  padding: 10px;
+  text-indent: 25px;
+  font-family: times;
+  font-size: 14px;
+  overflow: scroll;
+}
+
+#filler::first-letter {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+#choices {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+button {
+  height: 150px;
+  width: inherit;
+  border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Inventory*/
+.bg-success {
+  padding: 5px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  left: 0px;
+  width: 25%;
+  margin-top: 10%;
+
+}
+
+.bg-success h4 {
+  font-size: 12px;
+}
+/*Allies*/
+.bg-info {
+  padding: 5px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  right: 0px;
+  width: 25%;
+  text-align: right;
+  margin-top: 10%;
+}
+
+.bg-info h4 {
+  font-size: 12px;
+}
+/*Passages*/
+.bg-primary {
+  padding: 5px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  right: 0px;
+  top: 20%;
+  width: 25%;
+  text-align: right;
+
+}
+.bg-primary h4 {
+  font-size: 12px;
+}
+/*Killed*/
+#killed {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  left: 0px;
+  top: 20%;
+  width: 25%;
+}
+#killed h4 {
+  font-size: 12px;
+}
+
+#houseWords {
+  padding: 10px;
+}
+
+.notOption {
+  background-image: url('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwippsjZ16XWAhVF6CYKHWw9A8cQjBwIBA&url=http%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Fx-png-18.png&psig=AFQjCNEaFM0hXlLMjC6jd7hn2SurlEq0bg&ust=1505513157260721')
+}
+
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+
+/*html {
+  background-image: url('https://i.pinimg.com/736x/84/71/95/847195332d5e0991009b78df980cff6a--beautiful-clothes-kings-landing-game-of-thrones.jpg');
+  background-position: center;
+  background-size: cover;
+}*/
+body {
+  background-image: url('https://cdnb.artstation.com/p/assets/images/images/000/147/129/small/rob-smyth-the-red-keep-web.jpg?1406534337');
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background-color: darkred;
+  color: rgb(200, 175, 130);
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+header h1 {
+  font-size: 2em;
+}
+header p {
+  font-size: 12px;
+}
+
+
+#filler {
+  width: 50%;
+  height: 360px;
+  border-radius: 10px;
+  padding: 10px;
+  text-indent: 25px;
+  font-family: times;
+  font-size: 14px;
+  overflow: scroll;
+}
+
+#filler::first-letter {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+#choices {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+button {
+  height: 150px;
+  width: inherit;
+  border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Inventory*/
+.bg-success {
+  padding: 5px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  left: 0px;
+  width: 25%;
+  margin-top: 10%;
+
+}
+
+.bg-success h4 {
+  font-size: 12px;
+}
+/*Allies*/
+.bg-info {
+  padding: 5px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  right: 0px;
+  width: 25%;
+  text-align: right;
+  margin-top: 10%;
+}
+
+.bg-info h4 {
+  font-size: 12px;
+}
+/*Passages*/
+.bg-primary {
+  padding: 5px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  right: 0px;
+  top: 12%;
+  width: 25%;
+  text-align: right;
+
+}
+.bg-primary h4 {
+  font-size: 12px;
+}
+/*Killed*/
+#killed {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  left: 0px;
+  top: 12%;
+  width: 25%;
+}
+#killed h4 {
+  font-size: 12px;
+}
+
+#houseWords {
+  padding: 10px;
+}
+}
+@media only screen and (min-width: 481px) {
+
+html {
+  background-image: url('http://awoiaf.westeros.org/images/thumb/f/f6/Agot_hbo_guide_map.jpg/1500px-Agot_hbo_guide_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+body {
+  background-image: url('http://awoiaf.westeros.org/images/thumb/f/f6/Agot_hbo_guide_map.jpg/1500px-Agot_hbo_guide_map.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.5);
+  color: rgb(200, 175, 130);
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+
+
+#filler {
+  width: 50%;
+  height: 320px;
+  border-radius: 10px;
+  padding: 10px;
+  text-indent: 25px;
+  font-family: times;
+  font-size: 18px;
+  overflow: scroll;
+}
+
+#filler::first-letter {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#choices {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 200px;
+  width: inherit;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+/*Inventory*/
+.bg-success {
+  padding: 10px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  left: 10px;
+  width: 150px;
+}
+/*Allies*/
+.bg-info {
+  padding: 10px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  right: 10px;
+  width: 150px;
+  text-align: right;
+
+}
+/*Passages*/
+.bg-primary {
+  padding: 10px;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 150px;
+  text-align: right;
+
+}
+/*Killed*/
+#killed {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-family: 'Cinzel', serif;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 150px;
+}
+
+#houseWords {
+  padding: 10px;
+}
+}

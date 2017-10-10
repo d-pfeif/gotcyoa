@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>King SlayerCYOA</title>
+  <link rel="stylesheet" href="main.css">
+  <meta name='viewport'content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+
+  <!-- bootstrap css stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- GoT font -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Game of Thrones</h1>
+    <p>choose your own adventure</p>
+  </header>
+  <div class="content">
+    <div class="bg-danger" id="filler">A small window sits on the wall across from the iron bars that keep you prisoner where you sit alone in a stone cell. Footsteps echo down the hall and before you appears a man you recognize: the high priest.
+      <span>
+        <p>"Are you ready to confess?" his voice stern.</p>
+      </span>
+      <span>
+        <p>Without hesitation you spit at the mans feet. You refuse to confess to a crime you didn’t commit.</p>
+      </span>
+      <span>
+        <p>"That is a shame..." he returns your gaze. "the King’s decided that you're to be executed this afternoon for treason. May God have mercy on your soul." He turns and leaves you alone.</p>
+      </span>
+      <span>
+        <p>There’s no point in escape. You curl up in the corner and let sleep take you.</p>
+      </span>
+    </div>
+    <p id="houseWords" class="bg-warning"></p>
+    <div id="choices">
+      <button type="button" onclick="begin()">Begin</button>
+    </div>
+
+    <!-- Inventory Box -->
+    <div class="bg-success">
+      <h4><u><em>Inventory</em></u></h4>
+      <div id="items">
+      </div>
+    </div>
+    <!-- Ally Box -->
+    <div class="bg-info">
+      <h4><u><em>Allies</em></u></h4>
+      <div id="ally">
+      </div>
+    </div>
+    <!-- Secret Passage Box -->
+    <div class="bg-primary">
+      <h4><u><em>Secret Passages</em></u></h4>
+      <div id="passage">
+      </div>
+    </div>
+    <!-- People you've killed box -->
+    <div id="killed">
+      <h4><u><em>Killed</em></u></h4>
+      <div id='dead'>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="app.js">
+  </script>
+</body>
+</html>
